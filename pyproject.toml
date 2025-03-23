@@ -1,0 +1,11 @@
+[project]
+name = "bond-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "akshare>=1.16.60",
+    "ipykernel>=6.29.5",
+    "mcp[cli]>=1.5.0",
+]
